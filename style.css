@@ -1,0 +1,79 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  min-height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 140px 1fr auto auto;
+}
+#main header {
+  background-color: rgba(46, 45, 45, 0.671);
+  color: wheat;
+}
+#main header #title {
+  font-size: 5em;
+  text-align: center;
+}
+#main header h2 {
+  text-align: center;
+}
+#main #img-div {
+  justify-self: center;
+  margin-bottom: 2rem;
+}
+#main #img-div #image {
+  display: block;
+  max-width: 90rem;
+  align-content: center;
+}
+#main #tribute-info {
+  width: 75%;
+  text-align: center;
+  justify-self: center;
+}
+#main #tribute-info span {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#main #tribute-info ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+#main #tribute-info ul li a {
+  text-decoration: none;
+  color: black;
+}
+#main #tribute-info ul li a:hover {
+  font-weight: 600;
+  font-size: 19px;
+}
+#main #tribute-info #read-more {
+  text-align: right;
+  margin-bottom: 30px;
+}
+#main footer {
+  bottom: 0;
+  line-height: 100px;
+  max-height: 100px;
+  background-color: black;
+  color: white;
+}
+#main footer .footer {
+  display: flex;
+  justify-content: space-around;
+}
+#main footer .footer #github {
+  font-size: 20px;
+  text-decoration: none;
+}
+#main footer .footer #github:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
